@@ -19,7 +19,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-App::uses('Controller', 'Controller');
+App::uses('CakeEmail','Network/Email','Controller', 'Controller', 'Security', 'Utility');
 
 /**
  * Application Controller
@@ -31,4 +31,40 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+	public $components = array(
+		'Session',
+		'Auth' => array(
+			'loginRedirect' => array('controller' => 'requests', 'action' => 'browse'),
+			'logoutRedirect' => array('controller' => 'requests', 'action' => 'browse')
+		),
+		'RequestHandler'
+	);
+	
+	public $helpers = array(
+		'Form',
+		'Session',
+		'Html',
+		'Js'
+	);
+	
+	public function beforeFilter() {
+		$this->Auth->allow(array('display','latest','browse','search','register'));
+		$this->set('Auth',$this->Auth);		
+		$this->set('loggedIn',$this->Auth->loggedIn());
+	}
+	
+	public function beforeRender() {
+		if ($this->request->is('ajax')) {
+			$this->layout = 'ajax';
+		}
+	}
+	
+	public function isAuthorized($user) {
+		if (isset($user['role']) && $user['role'] == 2) {
+			return true;
+		}
+		
+		return false;
+	}
 }

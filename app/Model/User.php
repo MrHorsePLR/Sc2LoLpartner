@@ -24,21 +24,22 @@ App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 				),
 				'minLength' => array(
 					'rule' => array('minLength','8'),
-					'message' => 'La contraseña debe tener al menos 8 caracteres',
+					'message' => 'Password must be at least 8 characters long',
 				),
 			),
 		);
 		public $hasMany = array(
-			'Resquest' => array(
-				'className' => 'Request',
-				'foreignKey' => 'user_id',
-				'dependent' => FALSE
-				),
 			'Profile' => array(
 				'className' => 'Profile',
 				'foreignKey' => 'user_id',
 				'dependent' => FALSE
 				),
 			);
+
+	/** Hashes passwords **/
+	public function beforeSave($options = array()) {
+		if (!empty($this->data['User']['password'])) {
+			$this->data['User']['password'] = AuthComponent::password($this->data['User']['password']);
+		}	
 	}
-?>
+}
