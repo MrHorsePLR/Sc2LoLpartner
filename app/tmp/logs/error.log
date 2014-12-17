@@ -767,3 +767,446 @@ Stack Trace:
 #11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
 #12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2014-12-17 01:47:45 Error: [MissingActionException] Action RequestsController::browse() could not be found.
+Exception Attributes: array (
+  'controller' => 'RequestsController',
+  'action' => 'browse',
+)
+Request URL: /scpracticas/requests/browse
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest))
+#2 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-17 01:48:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:48:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:48:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:48:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:48:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:48:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:49:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:49:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:49:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:49:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:54:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:54:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:54:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:54:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:54:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 01:54:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'League.game_id' in 'on clause'
+Request URL: /scpracticas/leagues
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `League`...', Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `League`...', Array, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `League`...', false)
+#4 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2947): DboSource->read(Object(League), Array)
+#5 C:\wamp\www\scpracticas\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\scpracticas\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\scpracticas\app\Controller\LeaguesController.php(26): PaginatorComponent->paginate()
+#8 [internal function]: LeaguesController->index()
+#9 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LeaguesController), Array)
+#10 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(LeaguesController), Object(CakeRequest))
+#12 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-17 02:09:25 Error: Fatal Error (1): Call to a member function input() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 6]
+2014-12-17 02:09:25 Error: [FatalErrorException] Call to a member function input() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 6, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 6, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:23:58 Error: Fatal Error (1): Call to a member function obervefield() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 20]
+2014-12-17 02:23:58 Error: [FatalErrorException] Call to a member function obervefield() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 20, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 20, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:25:48 Error: Fatal Error (1): Call to a member function obervefield() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:25:48 Error: [FatalErrorException] Call to a member function obervefield() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:25:49 Error: Fatal Error (1): Call to a member function obervefield() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:25:49 Error: [FatalErrorException] Call to a member function obervefield() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:36:51 Error: Fatal Error (1): Call to a member function obervefield() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:36:51 Error: [FatalErrorException] Call to a member function obervefield() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:36:53 Error: Fatal Error (1): Call to a member function obervefield() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:36:53 Error: [FatalErrorException] Call to a member function obervefield() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:37:36 Error: Fatal Error (1): Call to a member function obervefield() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:37:36 Error: [FatalErrorException] Call to a member function obervefield() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:37:46 Error: Fatal Error (1): Call to a member function obervefield() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:37:46 Error: [FatalErrorException] Call to a member function obervefield() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:37:47 Error: Fatal Error (1): Call to a member function obervefield() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:37:47 Error: [FatalErrorException] Call to a member function obervefield() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:37:47 Error: Fatal Error (1): Call to a member function obervefield() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:37:47 Error: [FatalErrorException] Call to a member function obervefield() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:37:48 Error: Fatal Error (1): Call to a member function obervefield() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:37:48 Error: [FatalErrorException] Call to a member function obervefield() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:37:48 Error: Fatal Error (1): Call to a member function obervefield() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:37:48 Error: [FatalErrorException] Call to a member function obervefield() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:40:54 Error: Fatal Error (1): Call to a member function oberveField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:40:54 Error: [FatalErrorException] Call to a member function oberveField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:40:56 Error: Fatal Error (1): Call to a member function oberveField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:40:56 Error: [FatalErrorException] Call to a member function oberveField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:40:56 Error: Fatal Error (1): Call to a member function oberveField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:40:56 Error: [FatalErrorException] Call to a member function oberveField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 02:40:56 Error: Fatal Error (1): Call to a member function oberveField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:40:56 Error: [FatalErrorException] Call to a member function oberveField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
