@@ -8,6 +8,7 @@ App::uses('AppController', 'Controller');
  * @property SessionComponent $Session
  */
 class LeaguesController extends AppController {
+	var $helpers= array('Html','Ajax','Javascript');
 
 /**
  * Components

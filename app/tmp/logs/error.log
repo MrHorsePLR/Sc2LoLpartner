@@ -1210,3 +1210,240 @@ Stack Trace:
 #3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-12-17 02:50:22 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 02:50:22 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 04:46:52 Error: [MissingActionException] Action RequestsController::browse() could not be found.
+Exception Attributes: array (
+  'controller' => 'RequestsController',
+  'action' => 'browse',
+)
+Request URL: /scpracticas/requests/browse
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest))
+#2 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-17 04:47:03 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 04:47:03 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 04:47:11 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 04:47:11 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 18:38:56 Error: [MissingActionException] Action RequestsController::browse() could not be found.
+Exception Attributes: array (
+  'controller' => 'RequestsController',
+  'action' => 'browse',
+)
+Request URL: /scpracticas/requests/browse
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(RequestsController), Object(CakeRequest))
+#2 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-12-17 18:39:11 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 18:39:11 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 18:43:54 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 23]
+2014-12-17 18:43:54 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 18:48:42 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 23]
+2014-12-17 18:48:42 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 18:49:40 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 23]
+2014-12-17 18:49:40 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 18:49:55 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 23]
+2014-12-17 18:49:55 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 18:49:58 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 23]
+2014-12-17 18:49:58 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 18:50:11 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 18:50:11 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 18:50:13 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 18:50:13 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 18:55:47 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 18:55:47 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 18:55:49 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 22]
+2014-12-17 18:55:49 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 22, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 19:10:01 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AjaxHelper',
+  'plugin' => false,
+)
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\View\View.php(886): HelperCollection->load('Ajax', Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(ProfilesController))
+#3 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#6 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-12-17 19:11:20 Error: Fatal Error (1): Call to a member function observeField() on a non-object in [C:\wamp\www\scpracticas\app\View\Profiles\add.ctp, line 23]
+2014-12-17 19:11:20 Error: [FatalErrorException] Call to a member function observeField() on a non-object
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#2 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\scp...', 23, Array)
+#3 C:\wamp\www\scpracticas\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-17 19:12:19 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AjaxHelper',
+  'plugin' => false,
+)
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\View\View.php(886): HelperCollection->load('Ajax', Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(ProfilesController))
+#3 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#6 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-12-17 19:14:01 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AjaxHelper',
+  'plugin' => false,
+)
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\View\View.php(886): HelperCollection->load('Ajax', Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(ProfilesController))
+#3 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#6 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-12-17 19:14:05 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AjaxHelper',
+  'plugin' => false,
+)
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\View\View.php(886): HelperCollection->load('Ajax', Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(ProfilesController))
+#3 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#6 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-12-17 19:14:07 Error: [MissingHelperException] Helper class AjaxHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AjaxHelper',
+  'plugin' => false,
+)
+Request URL: /scpracticas/profiles/add
+Stack Trace:
+#0 C:\wamp\www\scpracticas\lib\Cake\View\View.php(886): HelperCollection->load('Ajax', Array)
+#1 C:\wamp\www\scpracticas\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(ProfilesController))
+#3 C:\wamp\www\scpracticas\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 C:\wamp\www\scpracticas\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#6 C:\wamp\www\scpracticas\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}

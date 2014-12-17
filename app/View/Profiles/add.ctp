@@ -1,7 +1,8 @@
 <div class="profiles form">
-	
+	echo $javascript->link('prototype');
+	echo $javascript->link('scriptaculous');	
 <?php echo $this->Form->create('Profile'); ?>
-		echo $javascript->link('prototype', false);
+		
 	<fieldset>
 		<legend><?php echo __('Add Profile'); ?></legend>
 	<?php

@@ -8,7 +8,7 @@ App::uses('AppController', 'Controller');
  * @property SessionComponent $Session
  */
 class ProfilesController extends AppController {
-
+	var $helpers= array('Html','Ajax','Javascript');
 /**
  * Components
  *
