@@ -19,7 +19,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-App::uses('CakeEmail','Network/Email','Controller', 'Controller', 'Security', 'Utility', 'obervefield');
+App::uses('CakeEmail','Network/Email','Controller', 'Controller', 'Security', 'Utility');
 
 /**
  * Application Controller
