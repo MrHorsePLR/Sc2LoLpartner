@@ -1,5 +1,6 @@
 <?php
 App::uses('AppController', 'Controller');
+
 /**
  * Profiles Controller
  *
@@ -8,7 +9,7 @@ App::uses('AppController', 'Controller');
  * @property SessionComponent $Session
  */
 class ProfilesController extends AppController {
-	var $helpers= array('Html','Ajax','Javascript');
+	public $helpers = array('Html','Js');
 /**
  * Components
  *

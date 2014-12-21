@@ -1,8 +1,8 @@
+<?php echo $this->Html->script('jquery', FALSE) ?>
 <div class="profiles form">
-	echo $javascript->link('prototype');
-	echo $javascript->link('scriptaculous');	
-<?php echo $this->Form->create('Profile'); ?>
 		
+<?php echo $this->Form->create('Profile'); ?>
+
 	<fieldset>
 		<legend><?php echo __('Add Profile'); ?></legend>
 	<?php
@@ -20,14 +20,26 @@
        		'id' => 'PostSeriesDiv')
    		));
 		}
-		echo $ajax->observeField('GameLeagueId', array(
+		$this->Js->get('#LeagueID')->event('change', $this->Js->request(
+			array('controller' => 'profile', 'action' => 'auto_select_title'),
+			array(
+				'update' => '#titleID',
+				'async' => true,
+				'dataExpression' => true,
+				'method' => 'post',
+				'data' => $js->serializeForm(array('isForm' => false, 'inline' => true))
+		)));
+			
+			
+		/*echo $ajax->observeField('GameLeagueId', array(
   			 	'frequency' => '1',
    				'update' => 'GameLeagueDiv',
    				'url' => array(
        				Configure::read('Routing.admin') => false,
        				'controller' => 'league',
        				'action' => 'lists')
-	  			));
+	  			));*/
+	  			
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
@@ -47,3 +59,4 @@
 		<li><?php echo $this->Html->link(__('New Request'), array('controller' => 'requests', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+<?php echo $this->Js->writeBuffer(); ?>
