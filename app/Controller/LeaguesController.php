@@ -111,9 +111,9 @@ class LeaguesController extends AppController {
 	// list
 
 	public function lists() {
-		$this->set('league', $this->Series->getByLeague($this->data['Game']['league_id']));
-}
-		/*if ($this->request->is('post')) {
+		//$this->set('league', $this->Series->getByLeague($this->data['Game']['league_id']));
+
+		//if ($this->request->is('post')) {
 			$game_id = $this->request->data['game_id'];
 			
 			$leagues = $this->League->find('list', array(
@@ -122,7 +122,7 @@ class LeaguesController extends AppController {
 				$this->set('leagues', $leagues);
 				$this->layout = 'ajax';
 				
-		//	echo json_encode($res);
+			//echo json_encode($res);
 		}
 	}
 

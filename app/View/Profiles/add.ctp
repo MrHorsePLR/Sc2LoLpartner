@@ -9,25 +9,20 @@
 		echo $this->Form->input('title');
 		echo $this->Form->input('url');
 		echo $this->Form->input('game_id', array(
-   			'label' => __('Game', true),
-   			'empty' => __('select a game', true)));
-		
-		if(isset($league)){
+			'label' => __('Game', true),
+			'empty' => __('Select a game', true)));
 		echo $this->Form->input('league_id', array(
-   			'label' => __('League', true),
-   			'empty' => __('No', true),
-   			'div' => array(
-       		'id' => 'PostSeriesDiv')
-   		));
-		}
-		$this->Js->get('#LeagueID')->event('change', $this->Js->request(
+			'label' => __('League', true),
+			'empty' => __('No', true)));
+		
+		$this->Js->get('#LeagueId')->event('change', $this->Js->request(
 			array('controller' => 'profile', 'action' => 'auto_select_title'),
 			array(
 				'update' => '#titleID',
 				'async' => true,
 				'dataExpression' => true,
 				'method' => 'post',
-				'data' => $js->serializeForm(array('isForm' => false, 'inline' => true))
+				'data' => $this->js->serializeForm(array('isForm' => false, 'inline' => true))
 		)));
 			
 			
